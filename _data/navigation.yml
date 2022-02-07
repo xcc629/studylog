@@ -16,3 +16,15 @@ main:
     url: /tags/
   - title: "Archive"
     url: /year-archive/
+
+docs:
+  - title: "Javascript"
+    children:
+      - title: "basic"
+        url: /categories/#basic
+      # - title: "Structure"
+      #   url: /docs/structure/
+      # - title: "Installation"
+      #   url: /docs/installation/
+      # - title: "Upgrading"
+      #   url: /docs/upgrading/
