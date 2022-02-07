@@ -18,7 +18,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale: "ko-KR"
 title: "Study Blog"
 title_separator: "-"
-subtitle: # site tagline that appears below site title in masthead
+subtitle: "TlL 정리 로그"
 name: "Your Name"
 description: "An amazing website."
 url: "https://xcc629.github.io"
