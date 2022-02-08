@@ -4,7 +4,7 @@ function clearbackGroundHandler() {
   const bgImage = document.getElementById("backGround");
   const bgImages = document.getElementsByTagName("img");
   const num = bgImages.length;
-  if (num > 1) {
+  if (num > 2) {
     bgImage.remove();
   }
 }
@@ -28,4 +28,4 @@ function backGrounHandler() {
 }
 
 backGrounHandler();
-setInterval(backGrounHandler, 5000);
+setInterval(backGrounHandler, 3000);
