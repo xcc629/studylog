@@ -28,4 +28,4 @@ function backGrounHandler() {
 }
 
 backGrounHandler();
-setInterval(backGrounHandler, 3000);
+setInterval(backGrounHandler, 4500);
