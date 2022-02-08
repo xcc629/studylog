@@ -15,12 +15,20 @@ div#nav a {
   margin-right: 3em;
 }
 
+div#nav a:hover {
+  font-size: 18px;
+  transition: 0.3s;
+  color: rgb(100, 255, 86);
+}
+
 div#nav {
   text-decoration: none;
   height: 50px;
   padding-top: 2em;
   background-color: black;
   opacity: 90%;
+  position: sticky;
+  top: 0px;
 }
 
 div#h1 h1 {
@@ -62,7 +70,7 @@ div#likes div {
   width: 22%;
   color: #363630;
   background-color: #f5f5dc;
-  border-radius: 3em;
+  border-radius: 2em;
 }
 
 div#likes {
@@ -101,9 +109,11 @@ div#contact-text {
   display: flex;
   justify-content: center;
   color: white;
+  margin-top: 150px;
 }
 
 div#contact-icons {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -116,6 +126,120 @@ div#contact-icons a:nth-child(2) img {
 div#Contact img {
   width: 50px;
   margin: 1.5rem;
+}
+
+div#contact-email p {
+  color: rgba(255, 255, 255, 0.589);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+div#bouncebox {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+div#bouncebox > a img {
+  display: flex;
+  margin: auto;
+  filter: blur(4px);
+  background-color: rgba(240, 248, 255, 0.26);
+  border-radius: 3rem;
+}
+
+div#bouncebox > a img:hover {
+  filter: blur(0px);
+  background-color: rgba(240, 248, 255, 0.479);
+  width: 60px;
+}
+
+.i {
+  position: relative;
+  /* 파폭 */
+  -moz-animation: bounce 2s infinite linear;
+  /* 크롬 */
+  -webkit-animation: bounce 2s infinite linear;
+  -o-animation: bounce 2s infinite linear;
+  animation: bounce 2s infinite linear;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -5px;
+  }
+  70% {
+    top: -50px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@-moz-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -5px;
+  }
+  70% {
+    top: -50px;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-o-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -5px;
+  }
+  70% {
+    top: -50px;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-ms-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -5px;
+  }
+  70% {
+    top: -50px;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -5px;
+  }
+  70% {
+    top: -50px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 #backGround {
@@ -132,6 +256,10 @@ div#Contact img {
 
 body {
   margin: 0;
-  height: 2200px;
+  height: 2800px;
   background-color: rgba(0, 0, 0, 0.959);
+}
+
+html {
+  scroll-behavior: smooth;
 }
