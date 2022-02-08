@@ -1,14 +1,31 @@
-let images = [];
+function backGroundOpasityHandler() {}
 
-for (let i = 0; i < 50; i++) {
-  images[i] = `${i}.JPEG`;
+function clearbackGroundHandler() {
+  const bgImage = document.getElementById("backGround");
+  const bgImages = document.getElementsByTagName("img");
+  const num = bgImages.length;
+  if (num > 1) {
+    bgImage.remove();
+  }
 }
 
-const chosenImage = images[Math.floor(Math.random() * images.length)];
+function backGrounHandler() {
+  let images = [];
 
-const bgImage = document.createElement("img");
+  for (let i = 0; i < 50; i++) {
+    images[i] = `${i}.JPEG`;
+  }
 
-bgImage.src = `/assets/img/${chosenImage}`;
-bgImage.id = "backGround";
+  const chosenImage = images[Math.floor(Math.random() * images.length)];
 
-document.body.appendChild(bgImage);
+  const bgImage = document.createElement("img");
+
+  bgImage.src = `/assets/img/${chosenImage}`;
+  bgImage.id = `backGround`;
+
+  document.body.appendChild(bgImage);
+  clearbackGroundHandler();
+}
+
+backGrounHandler();
+setInterval(backGrounHandler, 5000);

@@ -1,5 +1,26 @@
-body {
-  margin: 0;
+div#nav a:first-child {
+  margin-right: 15%;
+}
+
+div#nav a:last-child {
+  float: left;
+  margin-left: 10%;
+}
+
+div#nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  float: right;
+  margin-right: 3em;
+}
+
+div#nav {
+  text-decoration: none;
+  height: 50px;
+  padding-top: 2em;
+  background-color: black;
+  opacity: 90%;
 }
 
 #backGround {
@@ -12,4 +33,8 @@ body {
   height: 100%;
   z-index: -5;
   object-fit: cover;
+}
+
+body {
+  margin: 0;
 }
