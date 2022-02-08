@@ -1,10 +1,8 @@
-function backGroundOpasityHandler() {}
-
 function clearbackGroundHandler() {
   const bgImage = document.getElementById("backGround");
   const bgImages = document.getElementsByTagName("img");
   const num = bgImages.length;
-  if (num > 2) {
+  if (num > 3) {
     bgImage.remove();
   }
 }

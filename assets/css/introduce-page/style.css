@@ -54,8 +54,15 @@ div#header-text img {
   border-radius: 10px;
 }
 
-div#likes span {
+div#likes div {
   margin: auto;
+  padding-top: 20px;
+  height: 200px;
+  min-width: 150px;
+  width: 22%;
+  color: #363630;
+  background-color: #f5f5dc;
+  border-radius: 3em;
 }
 
 div#likes {
@@ -88,6 +95,27 @@ div#header-text p {
 div#header-text {
   background-color: rgb(255, 255, 255);
   height: 1200px;
+}
+
+div#contact-text {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+div#contact-icons {
+  display: flex;
+  justify-content: center;
+}
+
+div#contact-icons a:nth-child(2) img {
+  background-color: white;
+  border-radius: 30px;
+}
+
+div#Contact img {
+  width: 50px;
+  margin: 1.5rem;
 }
 
 #backGround {
