@@ -22,8 +22,8 @@ function backGrounHandler() {
   bgImage.id = `backGround`;
 
   document.body.appendChild(bgImage);
-  clearbackGroundHandler();
 }
 
 backGrounHandler();
 setInterval(backGrounHandler, 4500);
+setInterval(clearbackGroundHandler, 4800);
