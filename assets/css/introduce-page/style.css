@@ -49,9 +49,12 @@ div.info {
 }
 
 div#Infobox {
-  margin-top: 200px;
-  border-top: 1px solid rgba(128, 128, 128, 0.233);
-  padding-top: 100px;
+  margin-top: 75px;
+}
+
+div#h1 + p {
+  font-size: 19px;
+  padding-top: 20px;
 }
 
 div#header-text img {
@@ -62,12 +65,17 @@ div#header-text img {
   border-radius: 10px;
 }
 
+.like p {
+  padding: 10px;
+}
+
 div#likes div {
   margin: auto;
-  padding-top: 20px;
-  height: 200px;
+  padding-top: 10px;
+  min-height: 150px;
   min-width: 150px;
   width: 22%;
+  height: auto;
   color: #363630;
   background-color: #f5f5dc;
   border-radius: 2em;
@@ -93,11 +101,36 @@ div#like-box {
   margin-top: 50px;
 }
 
+div#impression-container h3 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+
+div#impression {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 15px;
+  background-color: #f5f5dc;
+  min-width: 615px;
+  width: 75%;
+  border-radius: 2em;
+}
+
+div#impression-container {
+  font-family: "Hahmlet", serif;
+  color: #363630;
+}
+
 div#header-text p {
   justify-content: center;
   display: flex;
   font-family: "Hahmlet", serif;
   margin: 0px;
+  color: #363630;
 }
 
 div#header-text {
