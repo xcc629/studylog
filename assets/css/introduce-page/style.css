@@ -66,12 +66,14 @@ div#header-text img {
 }
 
 .like p {
-  padding: 10px;
+  padding-left: 15px;
+  padding-right: 10px;
+  font-size: 15px;
+  flex-direction: column;
 }
 
 div#likes div {
   margin: auto;
-  padding-top: 10px;
   min-height: 150px;
   min-width: 150px;
   width: 22%;
