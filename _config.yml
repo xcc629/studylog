@@ -265,6 +265,9 @@ compress_html:
   ignore:
     envs: development
 
+#codepen
+codepen_username: xcc629
+
 # Defaults
 defaults:
   # _posts
