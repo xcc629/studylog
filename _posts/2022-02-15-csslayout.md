@@ -2,7 +2,11 @@
 title: "TIL: CSS 레이아웃"
 layout: single
 categories: css
-tag: css position display float
+tag:
+  - css
+  - position
+  - display
+  - float
 date: 2022-02-15 12:00
 toc: true
 toc_sticky: true
